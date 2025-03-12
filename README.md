@@ -1,4 +1,4 @@
-### Amplificator de Tensiune (Joasă Frecvență)
+# Amplificator de Tensiune (Joasă Frecvență)
 ### Descriere
 Acest proiect constă în proiectarea și realizarea unui amplificator de tensiune de joasă frecvență, conform specificațiilor definite. Scopul amplificatorului este de a crește amplitudinea semnalelor electrice de joasă frecvență (20 Hz - 20 kHz) menținând integritatea semnalului original.
 
