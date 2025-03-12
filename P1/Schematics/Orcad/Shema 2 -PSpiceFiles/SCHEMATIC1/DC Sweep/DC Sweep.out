@@ -1,0 +1,209 @@
+
+**** 11/21/24 23:38:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Sweep"  [ d:\materii universitate\p1\proiecte\shema 2 -pspicefiles\schematic1\dc sweep.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c10.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/irfr120npbf.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "d:/materii universitate/p1/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj309lt1g.lib" 
+* From [PSPICE NETLIST] section of C:\Users\silvi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 -3.6 3.6 0.001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SHEMA 2 
+Q_Q3         N15531 N15441 N15551 QBC856B 
+V_V2         N15555 0 15VDC
+Q_Q8         N15769 N15769 N15821 QBC846B 
+Q_Q9         N15879 N15643 N15941 QBC846B 
+X_U3         N15643 N21462 1N4148 
+X_U1         N15555 N15409 1N4148 
+Q_Q7         N15635 N15769 N15797 QBC846B 
+Q_Q4         N15643 N15441 N15571 QBC856B 
+Q_Q1         N15635 N15503 N15523 QBC856B 
+Q_Q2         N15769 N19975 N15535 QBC856B 
+Q_Q12         N16101 N15607 N16049 QBC856B 
+Q_Q10         N15941 N15879 N15555 QBC856B 
+Q_Q11         N16049 N16101 N15703 QBC846B 
+X_U2         N15409 N15441 1N4148 
+Q_Q6         N15607 N15635 N15675 QBC846B 
+X_U4         N21462 N15607 1N4148 
+V_V3         0 N15703 15VDC
+R_R1         0 N15503  220k TC=0,0 
+R_R2         N15523 N15531  10 TC=0,0 
+R_R3         N15531 N15535  10 TC=0,0 
+R_R5         N15441 0  9.1k TC=0,0 
+R_R11         N15703 N15797  1k TC=0,0 
+R_R12         N15703 N15821  1k TC=0,0 
+R_R13         N15703 N15675  10k TC=0,0 
+R_R15         N15703 N16101  100 TC=0,0 
+R_R14         N16049 N15973  22 TC=0,0 
+R_R16         N188921 N15973  51 TC=0,0 
+R_R17         0 N188921  10 TC=0,0 
+R_R8         N15973 N15941  22 TC=0,0 
+R_R7         N15879 N15555  10k TC=0,0 
+R_R6         N15571 N15555  2.2k TC=0,0 
+R_R4         N15551 N15555  1k TC=0,0 
+V_V1         N15503 0  AC 1
++SIN 0 360m 1k 0 0 0
+R_R9         N19975 N15973  9.1k TC=0,0 
+R_R10         0 N19975  1k TC=0,0 
+C_C1         N15635 N15607  470p  TC=0,0 
+C_C2         N15703 N15675  10n  TC=0,0 
+X_D2         0 N41039 LED PARAMS: IS=3.7602e-029 RS=2  BV=5 IBV=5e-6         
+R_R19         N302061 N15703  220 TC=0,0 
+R_R20         N337091 N302061  220 TC=0,0 
+R_R21         N338151 N337091  220 TC=0,0 
+R_R22         N41039 N338151  220 TC=0,0 
+R_R26         N41221 N343281  220 TC=0,0 
+X_D3         N41221 0 LED PARAMS: IS=3.7602e-029 RS=2  BV=5 IBV=5e-6         
+R_R23         N342841 N15555  220 TC=0,0 
+R_R24         N343061 N342841  220 TC=0,0 
+R_R25         N343281 N343061  220 TC=0,0 
+
+**** RESUMING "DC Sweep.cir" ****
+.END
+
+**** 11/21/24 23:38:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Sweep"  [ d:\materii universitate\p1\proiecte\shema 2 -pspicefiles\schematic1\dc sweep.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.1N4148     X_U1.1N4148     X_U2.1N4148     X_U4.1N4148     
+          IS    4.352000E-09    4.352000E-09    4.352000E-09    4.352000E-09 
+           N    1.906           1.906           1.906           1.906        
+          BV  110             110             110             110            
+         IBV  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+          RS     .6458           .6458           .6458           .6458       
+          TT    3.480000E-09    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO  704.800000E-15  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .869            .869            .869            .869        
+           M     .03             .03             .03             .03         
+
+
+               X_D2.model201   X_D3.model201   
+          IS   37.602000E-30   37.602000E-30 
+           N    2               2            
+          BV    5               5            
+         IBV    5.000000E-06    5.000000E-06 
+          RS    2               2            
+
+
+**** 11/21/24 23:38:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Sweep"  [ d:\materii universitate\p1\proiecte\shema 2 -pspicefiles\schematic1\dc sweep.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+
+          JOB CONCLUDED
+
+**** 11/21/24 23:38:46 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Sweep"  [ d:\materii universitate\p1\proiecte\shema 2 -pspicefiles\schematic1\dc sweep.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .27
+

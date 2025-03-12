@@ -1,0 +1,53 @@
+** Profile: "SCHEMATIC1-Rezistenta intrare"  [ D:\Materii UNIVERSITATE\P1\P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad\Schematics\Orcad\shema 2 -pspicefiles\schematic1\rezistenta intrare.sim ] 
+
+** Creating circuit file "Rezistenta intrare.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/1n4148."
++ "lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc807-2"
++ "5.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc817-2"
++ "5.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b."
++ "lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc856b."
++ "lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2"
++ "v7.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5"
++ "v1.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5"
++ "v6.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6"
++ "v2.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6"
++ "v8.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8"
++ "v2.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c1"
++ "0.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/irfr120"
++ "npbf.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg"
++ ".lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg"
++ ".lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj17"
++ "7lt1g.lib" 
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj30"
++ "9lt1g.lib" 
+* From [PSPICE NETLIST] section of C:\Users\silvi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 10m 10Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

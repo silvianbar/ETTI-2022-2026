@@ -1,0 +1,231 @@
+(ExpressProject "Shema 2 "
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\sourcstm.olb"
+        (DisplayName
+           "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\sourcstm.olb")
+        (Type "Schematic Library"))
+      (File
+         "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "D:\Softuri\Orcad\Softul in sine\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "shema 2 .dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE"))
+  (Folder "Outputs"
+    (File ".\shema 2 -pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\1n4148.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc807-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc856b.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c2v7.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v1.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c5v6.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v2.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c6v8.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c8v2.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bzx84c10.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\irfr120npbf.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd31cg.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\mjd32cg.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj177lt1g.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "..\lib_modelepspice_anexa_1\modele_a1_lib\mmbfj309lt1g.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\shema 2 -pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\shema 2 -pspicefiles\schematic1\acsweep.sim"
+        (DisplayName "SCHEMATIC1-AcSweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\shema 2 -pspicefiles\schematic1\rezistenta intrare.sim"
+        (DisplayName "SCHEMATIC1-Rezistenta intrare")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\shema 2 -pspicefiles\schematic1\rezistenta iesire.sim"
+        (DisplayName "SCHEMATIC1-Rezistenta Iesire")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\shema 2 -pspicefiles\schematic1\dc sweep.sim"
+        (DisplayName "SCHEMATIC1-DC Sweep")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD 17.2\SOFT\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\SOFTURI\ORCAD\SOFTUL IN SINE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Materii UNIVERSITATE\P1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "d:\materii universitate\p1\p1_2024_431d_baroiu_silvian_aaf_n6_orcad\schematics\orcad\shema 2 .dsn")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "d:\materii universitate\p1\p1_2024_431d_baroiu_silvian_aaf_n6_orcad\schematics\orcad\shema 2 .dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 350"))
+      (Tab 0)))
+  (MPSSessionName "silvi"))

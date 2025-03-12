@@ -1,0 +1,153 @@
+
+**** 11/22/24 16:07:11 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-AcSweep"  [ D:\Materii UNIVERSITATE\P1\P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad\Schematics\Orcad\shema 2 -ps
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AcSweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/1n4148."
++ "lib" 
+--------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc807-2"
++ "5.lib" 
+----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc817-2"
++ "5.lib" 
+----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b."
++ "lib" 
+--------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc856b."
++ "lib" 
+--------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2"
++ "v7.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5"
++ "v1.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c5"
++ "v6.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6"
++ "v2.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c6"
++ "v8.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c8"
++ "v2.lib" 
+-----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c1"
++ "0.lib" 
+----------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/irfr120"
++ "npbf.lib" 
+-------------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mjd31cg"
++ ".lib" 
+---------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mjd32cg"
++ ".lib" 
+---------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj17"
++ "7lt1g.lib" 
+--------------$
+ERROR(ORPSIM-16276): Can't find library
+.LIB "D:/Materii UNIVERSITATE/P1/P1_2024_431D_Baroiu_Silvian_AAF_N6_OrCad/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/mmbfj30"
++ "9lt1g.lib" 
+* From [PSPICE NETLIST] section of C:\Users\silvi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+--------------$
+ERROR(ORPSIM-16276): Can't find library
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 100 0.001 10Meg
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source SHEMA 2 
+Q_Q3         N15531 N15441 N15551 QBC856B 
+V_V2         N15555 0 15VDC
+Q_Q8         N15769 N15769 N15821 QBC846B 
+Q_Q9         N15879 N15643 N15941 QBC846B 
+X_U3         N15643 N21462 1N4148 
+X_U1         N15555 N15409 1N4148 
+Q_Q7         N15635 N15769 N15797 QBC846B 
+Q_Q4         N15643 N15441 N15571 QBC856B 
+Q_Q1         N15635 N15503 N15523 QBC856B 
+Q_Q2         N15769 N19975 N15535 QBC856B 
+Q_Q12         N16101 N15607 N16049 QBC856B 
+Q_Q10         N15941 N15879 N15555 QBC856B 
+Q_Q11         N16049 N16101 N15703 QBC846B 
+X_U2         N15409 N15441 1N4148 
+Q_Q6         N15607 N15635 N15675 QBC846B 
+X_U4         N21462 N15607 1N4148 
+V_V3         0 N15703 15VDC
+R_R1         0 N15503  220k TC=0,0 
+R_R2         N15523 N15531  10 TC=0,0 
+R_R3         N15531 N15535  10 TC=0,0 
+R_R5         N15441 0  9.1k TC=0,0 
+R_R11         N15703 N15797  1k TC=0,0 
+R_R12         N15703 N15821  1k TC=0,0 
+R_R13         N15703 N15675  10k TC=0,0 
+R_R15         N15703 N16101  100 TC=0,0 
+R_R14         N16049 N15973  22 TC=0,0 
+R_R16         N188921 N15973  51 TC=0,0 
+R_R17         0 N188921  10 TC=0,0 
+R_R8         N15973 N15941  22 TC=0,0 
+R_R7         N15879 N15555  10k TC=0,0 
+R_R6         N15571 N15555  2.2k TC=0,0 
+R_R4         N15551 N15555  1k TC=0,0 
+V_V1         N15503 0  AC 1
++SIN 0 360m 1k 0 0 0
+R_R9         N19975 N15973  9.1k TC=0,0 
+R_R10         0 N19975  1k TC=0,0 
+C_C1         N15635 N15607  470p  TC=0,0 
+C_C2         N15703 N15675  10n  TC=0,0 
+X_D2         0 N41039 LED PARAMS: IS=3.7602e-029 RS=2  BV=5 IBV=5e-6         
+R_R19         N302061 N15703  220 TC=0,0 
+R_R20         N337091 N302061  220 TC=0,0 
+R_R21         N338151 N337091  220 TC=0,0 
+R_R22         N41039 N338151  220 TC=0,0 
+R_R26         N41221 N343281  220 TC=0,0 
+X_D3         N41221 0 LED PARAMS: IS=3.7602e-029 RS=2  BV=5 IBV=5e-6         
+R_R23         N342841 N15555  220 TC=0,0 
+R_R24         N343061 N342841  220 TC=0,0 
+R_R25         N343281 N343061  220 TC=0,0 
+
+**** RESUMING AcSweep.cir ****
+.END
+
